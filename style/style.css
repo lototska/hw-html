@@ -1,0 +1,17 @@
+body {
+    font-family: "Playfair Display";
+    font-size: 14px;
+    line-height: 24px;
+}
+.item {
+    background-color: crimson;
+}
+.sate_navigation{
+    list-style: none;
+    
+}
+.sate_navigation a {
+    color: rgba(234, 237, 240, 0.808);
+    text-transform: uppercase;
+    text-decoration: none;
+}
