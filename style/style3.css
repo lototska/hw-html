@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Playfair Display";
+    font-size: 14px;
+    line-height: 24px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.feature_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    margin-top: 30px;
+}
+.feature_list_item {
+    width: 430px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.feature_list_item:not(:last-child) {
+    margin-right: 40px;
+}
+.feature_list_item:nth-child(2n) {
+    margin-left: 0;
+}
+.image {
+    margin-bottom: 30px;
+ }
+.description {
+    text-transform: uppercase;
+    color: rgb(65, 70, 71);
+    margin:0 0 30px 0;
+    font-size: 14px;
+}
+.title {
+    margin:0 0 30px 0;
+    font-size: 25px;
+}
+.text {
+    margin:0 0 20px 0;
+    font-size: 14px;
+}
