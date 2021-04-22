@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Playfair Display";
+    font-size: 14px;
+    line-height: 24px;
+}
+.container {
+    width: 470px;
+    margin: 0 auto;
+}
+.description {
+    text-transform: uppercase;
+    color: rgb(65, 70, 71);
+    margin-bottom: 30px;
+}
+.image {
+    margin: 20px 10px;
+}
+.title {
+    margin-bottom: 30px;
+}
+.text {
+    margin-bottom: 20px;
+}
