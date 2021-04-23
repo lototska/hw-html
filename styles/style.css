@@ -23,11 +23,9 @@ body {
 }
 .sate-navigation {
     list-style: none;
-    margin: 0;
+    margin: 62px 0 120px;
     padding: 0;
     text-align: center;
-    margin-bottom: 120px;
-    margin-top: 62px;
     font-size: 0;
 }
 .sate-navigation a {
@@ -51,31 +49,27 @@ body {
 }
 .list { 
     list-style: none;
-    margin: 0;
-    margin-bottom: 54px;
+    margin: 0 0 54px;
     padding: 0;
     font-size: 0;   
 }
 .list h2 {
     font-size: 30px;
-    margin: 0;
-    margin-bottom: 42px;
+    margin: 0 0 42px;
 }
 .photo-description {
-    margin: 0;
-    margin-bottom: 30px;
+    margin: 0 0 30px;
 }
 .text {
     margin: 0;
 }
 .list p {
-font-size: 14px;
+    font-size: 14px;
 }
 .list_item {
     width: 420px;
     display: inline-block;
-    margin-right: 60px;
-    margin-bottom: 134px;
+    margin: 0 60px 134px 0;
 }
 .list_item:nth-last-child(-n + 2) {
     margin-bottom: 0;
@@ -88,16 +82,14 @@ font-size: 14px;
 }
 
 .button {
-   display: inline-block;
+    display: inline-block;
     width: 162px;
-   height: 62px;
-   border: 1px solid #626262; 
-   background-color: #fff;
-   cursor: pointer;
-   color: #626262;
-   font-size: 20px;
-   margin-bottom: 70px;
-   text-align: center;
-   margin-left: 366px;
-   margin-right: 368px;
+    height: 62px;
+    border: 1px solid #626262; 
+    background-color: #fff;
+    cursor: pointer;
+    color: #626262;
+    font-size: 20px;
+    margin: 0 368px 70px 366px;
+    text-align: center;
 }
