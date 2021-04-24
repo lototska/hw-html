@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Playfair Display";
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+.container {
+    width: 902px;
+    margin: 0 auto ;
+}
+
+.photo-description {
+    font-family: "Ubuntu";
+    color: #b4ad9e;
+}
+.sate-navigation {
+    list-style: none;
+    margin: 62px 0 120px;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
+}
+.sate-navigation a {
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 24px;
+    text-align: center;
+}
+.sate-navigation a:hover,
+.sate-navigation a:focus {
+    color: lawngreen;
+}
+.sate-navigation li {
+    display: inline-block;
+    margin-right: 110px;
+    font-size: 14px;
+}
+.sate-navigation li:last-child {
+    margin-right: 0;
+}
+.list { 
+    list-style: none;
+    margin: 0 0 54px;
+    padding: 0;
+    font-size: 0;   
+}
+.list h2 {
+    font-size: 30px;
+    margin: 0 0 42px;
+}
+.photo-description {
+    margin: 0 0 30px;
+}
+.text {
+    margin: 0;
+}
+.list p {
+    font-size: 14px;
+}
+.list_item {
+    width: 420px;
+    display: inline-block;
+    margin: 0 60px 134px 0;
+}
+.list_item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+}
+.list_item:nth-child(2n) {
+    margin-right: 0;
+}
+.list_item_img {
+    margin-bottom: 28px;
+}
+
+.button {
+    display: inline-block;
+    width: 162px;
+    height: 62px;
+    border: 1px solid #626262; 
+    background-color: #fff;
+    cursor: pointer;
+    color: #626262;
+    font-size: 20px;
+    margin: 0 368px 70px 366px;
+    text-align: center;
+}
