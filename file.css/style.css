@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Roboto" "Open Sans";
+    font-size: 14px;
+}
+.container { 
+    width: 1170px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.sate-name {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 900;
+    color: #515151;
+    text-transform: uppercase;
+}
+.sate-navigation {
+    width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+}
+.sate-navigation li {
+    float: left;
+}
+.sate-navigation li:not(:last-child) {
+    margin-right: 36px;
+}
+.sate-navigation a {
+    display: block;
+    text-decoration:none;
+    color:#515151;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
