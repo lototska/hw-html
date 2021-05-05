@@ -6,8 +6,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
-body {
-    font-family: "Roboto" "Open Sans";
+body {;
     font-size: 14px;
 }
 .container { 
@@ -25,20 +24,21 @@ body {
     font-weight: 900;
     color: #515151;
     text-transform: uppercase;
+    float: left;
 }
 .sate-navigation {
-    width: 490px;
+    width: 472px;
     margin: 0;
-    padding: 0;
     list-style: none;
     float: right;
     text-transform: uppercase;
+    padding: 40px 0;
 }
 .sate-navigation li {
     float: left;
 }
 .sate-navigation li:not(:last-child) {
-    margin-right: 36px;
+    margin-right: 28px;
 }
 .sate-navigation a {
     display: block;
@@ -46,4 +46,49 @@ body {
     color:#515151;
     font-weight: 700;
     font-family: "Open Sans";
+    font-size: 14px;
+}
+.sate-name::first-letter {
+    color: #1abc9c;
+}
+.section-title {
+    font-size: 48px;
+    font-family: "Roboto";
+    text-align: center;
+}
+h1::after {
+    display: block;
+    content: "";
+    width: 160px;
+    height: 6px;
+    background: #1abc9c;
+    margin: 0 auto;
+}
+.gallery {
+    list-style: none;
+    
+}
+.gallery li {
+    float: left;
+    margin-right: 30px;
+}
+.gallery li:nth-child(4n) {
+    margin-right: 0px;
+}
+.foto {
+   
+}
+.foto-name {
+    background: #323232;
+    color: #ffffff;
+    width: 200px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+}
+.sloy {
+    position: relative;
 }
