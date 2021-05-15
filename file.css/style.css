@@ -55,6 +55,7 @@ body {;
     font-size: 48px;
     font-family: "Roboto";
     text-align: center;
+    margin-bottom: 96px;
 }
 h1::after {
     display: block;
@@ -63,6 +64,7 @@ h1::after {
     height: 6px;
     background: #1abc9c;
     margin: 0 auto;
+    margin-top: 28px;
 }
 .gallery {
     list-style: none;
@@ -70,25 +72,83 @@ h1::after {
 }
 .gallery li {
     float: left;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 .gallery li:nth-child(4n) {
     margin-right: 0px;
 }
-.foto {
-   
+.gallery li:nth-child(-n+4) {
+    margin-bottom: 32px;
 }
 .foto-name {
     background: #323232;
     color: #ffffff;
     width: 200px;
     height: 38px;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     font-size: 18px;
     font-family: "Roboto";
     text-transform: uppercase;
+    display: ;
+    float: left;
 }
-.sloy {
-    position: relative;
+.size {
+ background: #868080;
+ color: #ffffff;
+ height: 38px;
+ width: 56px;
+ font-size: 18px;
+ font-family: "Roboto"; 
+ display: ; 
+ text-align: center; 
+ padding: 10px;
+ float: left;
+ margin: 0;
 }
+.title-news {
+    font-family: "Roboto";
+    font-size: 48px;
+    color: #555252;
+    text-align: center;
+    margin-bottom: 80px;
+}
+h2::after {
+    display: block;
+    content: "";
+    width: 160px;
+    height: 6px;
+    background: #1abc9c;
+    margin: 28px auto 0;
+}
+.news-list li{
+    float: left;
+    margin:0 40px 0 0;
+}
+.news-list {
+    list-style: none;
+   
+}
+.news-list li:nth-child(3n) {
+    margin-right: 0px;
+}
+.name-news {
+    width: 325px;
+    height: 54px;
+    font-family: "Open Sans";
+    color: #555252;
+    font-size: 18px;
+    font-weight: 600;
+}
+.name-news::after {
+    display: block;
+    content: "";
+    background: #1abc9c;
+    width: 132px;
+    height: 2px;
+    margin-top: 14px;
+}
+.news-description {
+    width: 350px;
+}
+
